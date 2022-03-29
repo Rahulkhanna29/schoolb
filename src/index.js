@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MainScreen from './Components/MainScreen';
+import CustomBox from './Components/CustomBox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainScreen />
+    {/* <CustomBox /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

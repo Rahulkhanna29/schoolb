@@ -1,0 +1,499 @@
+.container{
+ /* width: 100vw; */
+  /* height: 150vh; */
+  /* /* min-height: 100%; */
+  /* height: auto !important; 
+  height: 100%;  */
+  /* margin:0; 
+  padding:0; */
+  height:100%;  
+ /* flex: 1; */
+ 
+
+
+ 
+}
+.header{
+    width: 100vw;
+    background-color: rgb(57,76,147);
+    height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.headerText{
+    color: white;
+    font-weight: bold;
+}
+.View{
+   display: flex;
+   flex-direction: row;
+   background-color:rgb(242,242,242)
+   /* max-height: 100%; */
+   /* width: 100vw; */
+  /* height: 150vh; */
+  /* /* min-height: 100%; */
+  /* height: auto !important; 
+  height: 100%; */
+  /* margin:0; 
+  padding:0; */
+    /* height: 750px; */
+  /* overflow-y: auto; */
+  /* flex-grow: 1; */
+}
+.leftView{
+    width: 300px;
+    height: 550px;
+    background: #fff;
+    margin-left: 15vh;
+    box-shadow: 0px 3px 8px 0 rgb(102 102 102 / 15%);
+    border-radius: 4px;
+    margin-top: 2%;
+   position: sticky;
+   top:0;
+   
+}
+.elements{
+    border-top: 1px solid #f2f2f2;
+    display: block;
+    padding: 15px;
+    font-size: 14px;
+    color: #666666;
+    cursor: pointer;
+ 
+}
+.elements:hover{
+    color: black;
+}
+.rightView{
+    width: 800px;
+    height:380px;
+background: #fff;
+    margin-left: 15vh;
+    box-shadow: 0px 3px 8px 0 rgb(102 102 102 / 15%);
+    border-radius: 4px;
+    margin-top: 3%;
+    /* overflow: scroll; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+    /* height: 300; */
+    /* background-color: yellow; */
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    align-self: center;
+  margin-left: 5%;
+ padding: 5%;
+  width: 20px;
+  height: 20px;
+  color: #666666;
+}
+.icon:hover{
+    color:red
+}
+
+/* Right Class */
+
+.wholeView{
+margin-left: 2%;
+}
+.top{
+    width: 760px;
+    height: 30px;
+   /* /* margin-left: 2%; */
+   margin-top: 2%; 
+ align-self: center;
+   /* background-color:yellowgreen; */
+   display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+.topText{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px;
+text-align: center;
+}
+.topText1{
+    color: #3A4D95;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 15px;
+/* text-align: center; */
+}
+.topTextlast{
+    color: #3A4D95;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 15px;
+/* text-align: center; */
+margin-left: 80%;
+}
+.line{
+    border-width: 2%;
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 760px;
+    height: 1px;
+    align-self: center;
+    display: flex;
+    /* margin-left: 2%; */
+}
+.view{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #3A4D95; */
+    width: 760px;
+    margin-top: 2%;
+    align-self: center;
+}
+.view1{
+    display: flex;
+    /* flex-direction: row; */
+    /* /* background-color: #3A4D95; */
+    margin-top: 2%;
+   overflow-x: auto; 
+   
+}
+.view1::-webkit-scrollbar{
+    width: 0;
+}
+.textview{
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+  margin-left: 10%;
+}
+.color{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+/* Exams */
+
+.Exams{
+    padding: 2px;
+    font-size: 13px;
+   max-width: 300px;
+  
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 #e1e1e3;
+    border: solid 1px #d8dbea;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 220px;
+    margin-left: 2%; 
+    min-width: 240px;
+    height: 50px;
+    line-height: 50px;
+    /* background-color: #0f1894; */
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* /* z-index: 1; */
+    margin-top: 80px;
+    margin-left: 3%;  
+    /* overflow-x: auto;  */
+}
+.button1{
+ height: 25px;
+    display: inline-block;
+    min-width: 84px;
+    margin-right: 5px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    color: #666666;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.button2{
+    height: 25px;
+       display: inline-block;
+       min-width: 100px;
+       margin-right: 5px;
+       font-size: 13px;
+       background-color: #e56c5b;
+       color: #fff;
+       border: 1px solid #e56c5b;
+       overflow: hidden;
+       border-radius: 4%;
+     
+   }
+
+/* Sample Paper */
+
+   .image{
+       width: 10vw;
+       height: 30vh;
+      margin: 5%;
+   }
+   .Exams1{
+    padding: 2px;
+    font-size: 13px;
+   max-width: 300px;
+  
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 #e1e1e3;
+    border: solid 1px #d8dbea;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 220px;
+    margin-left: 2%; 
+    min-width: 300px;
+    height: 0px;
+    line-height: 50px;
+    /* background-color: #0f1894; */
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+
+}
+.sample{
+    display: flex;
+    flex-direction: column;
+}
+.button3{
+    /* /* height: 25px; */
+       /* display: inline-block; */
+       /* min-width: 100px; */
+       /* margin-right: 5px; */
+       font-size: 13px;
+       background-color: #e56c5b;
+       color: #fff;
+       border: 10px solid #e56c5b;
+       /* overflow: hidden; */
+       /* border-radius: 4%; */
+       margin-top: 85%; 
+     
+   }
+   .rightView1{
+    width: 800px;
+    height:330px;
+background: #fff;
+    margin-left: 15vh;
+    box-shadow: 0px 3px 8px 0 rgb(102 102 102 / 15%);
+    border-radius: 4px;
+    margin-top: 3%;
+    /* overflow: scroll; */
+    align-self: center;
+ display: flex;
+  flex-direction: column;
+}
+
+/* Ranking */
+
+.textranking{
+    color: #3A4D95
+    
+}
+.ranking{
+    margin-bottom: 4%;
+
+}
+.rank{
+    columns: 2 auto; 
+    margin: 4%;
+
+    
+}
+.rank1{
+    columns: 2 auto; 
+    margin: 2%;
+
+    
+}
+  .rightView2{
+    width: 800px;
+    height:280px;
+background: #fff;
+    margin-left: 15vh;
+    box-shadow: 0px 3px 8px 0 rgb(102 102 102 / 15%);
+    border-radius: 4px;
+    margin-top: 3%;
+    /* overflow: scroll; */
+    align-self: center;
+ display: flex;
+  flex-direction: column;
+}
+
+/* College Predictors */
+.imagecoll{
+    width: 300px;
+    height: 150px;
+  margin-left: 50%;
+
+
+}
+.images{
+width: 550px;
+height: 300px;
+background-color: rgb(255,241,217);
+flex-direction: column;
+display: flex;
+}
+
+/* List of Careers */
+
+.buttoncareer{
+   
+       font-size: 13px;
+       background-color: #e56c5b;
+       color: #fff;
+       border: 8px solid #e56c5b;
+       /* overflow: hidden; */
+       border-radius: 4%;
+     width: 90px;
+     justify-content: flex-end;
+     display: flex;
+     flex-direction: row;
+     position: relative;
+   }
+   /* other Products */
+   .products{
+       display: flex;
+       flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 10%;
+   }
+.productstext{
+    flex-direction:row;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* Admission */
+.imageadmin{
+    width: 50px;
+    height: 50px;
+}
+.admission{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 350px;
+    height: 60px;
+    margin-top: 2%;
+   margin-left: 4%;
+   
+}
+.buttoncareer1{
+   
+    height: 30px;
+    width: 20%;
+   
+    background-color: #e56c5b;
+    color: #fff;
+    border: 1px solid #e56c5b;
+    line-height: 1.428571429;
+     
+}
+/* Qna */
+.topqna{
+        border-width: 2%;
+        background-color: rgba(128, 128, 128, 0.384);
+        width: 760px;
+        height: 60px;
+        align-self: center;
+        display: flex;
+        border-radius: 1%;
+        flex-direction: row;
+        justify-content: space-around;
+}
+.buttoncareer2{
+   
+    height: 30px;
+    width: 20%;
+   align-self: center;
+    background-color: #02A569;
+    color: #fff;
+    border: 1px solid #02A569;
+    line-height: 1.428571429;
+     
+}
+.textqna{
+    align-self: center;
+    font-weight: bold;
+}
+.textqna1{
+    align-self: center;
+    /* font-weight: bold; */
+    color: #666666;
+}
+.textqna2{
+    align-self: center;
+    /* font-weight: bold; */
+    margin-left: 1%;
+}
+.main{
+    margin: 0;
+    border: 1px solid #e5e5e5;
+    padding: 10px 15px 0;
+    margin-bottom: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 2%;
+    width: 740px;
+align-self: center ;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    margin-top: 1%;
+}
+.parra{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    font-family: "Open Sans", Verdana, "sans-serif";
+    justify-content: space-around;
+  
+    line-height: 1.428571429;
+    color: #666666;
+   
+}
+.rightViewlast{
+    width: 800px;
+    height:720px;
+background: #fff;
+    margin-left: 15vh;
+    box-shadow: 0px 3px 8px 0 rgb(102 102 102 / 15%);
+    border-radius: 4px;
+    margin-top: 3%;
+    /* overflow: scroll; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
